@@ -1,0 +1,5 @@
+bison -d final.y
+flex final.l
+gcc -o parser final.tab.c lex.yy.c -lfl
+./parser
+<input>
