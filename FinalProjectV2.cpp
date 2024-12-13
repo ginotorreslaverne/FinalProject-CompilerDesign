@@ -164,13 +164,11 @@ class Parser
     size_t current;
     int tempVarCounter;
 
-    // Helper to get the current token
     Token& currentToken()
     {
         return tokens[current];
     }
 
-    // Helper to consume a token
     void consume(TokenType expectedType)
     {
         if (currentToken().type == expectedType)
@@ -184,7 +182,6 @@ class Parser
         }
     }
 
-    // Generate a new temporary variable
     string newTemp()
     {
         return "t" + to_string(tempVarCounter++);
@@ -193,7 +190,6 @@ class Parser
 public:
     Parser(const vector<Token>& inputTokens) : tokens(inputTokens), current(0), tempVarCounter(1) {}
 
-    // Parse and generate intermediate code
     string parseExpression();
     string parseTerm();
     string parseFactor();
