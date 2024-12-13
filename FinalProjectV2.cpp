@@ -1,3 +1,39 @@
+// -----------------------------------------------------------------------------------------------------------------------
+//                                               Name Gino Torres Christopher Burket-Thoene Nathan Tagaloa
+//                                               Course CMPS 455, Fall 2024
+//                                               Assignment Final Project
+//                                               Due date December 13, 2024
+// Purpose: 
+/* 
+Basic Grammar
+(1) E->E+T
+(2) E’->T
+(3) T->T*F
+(4) T->F
+(5) F->(E)
+(6) F->id
+
+Please implement the following algorithms
+(i) Closure(I)
+(ii) Follow(S)
+(iii) Goto(State,X)
+(iv) CanonicalSet(I)
+(v) SLR_parse_tables(grammar)
+
+Please organize a team and implement
+
+(1)          Lexical analyzer
+
+(2)          Parser
+
+(3)        Code generator
+
+And test the following source code:
+
+ 4+7*14+(7+6)*3
+
+Output the intermediate codes.
+*/
 
 #include <iostream>
 #include <vector>
