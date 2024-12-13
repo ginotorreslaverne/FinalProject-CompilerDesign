@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------------------------------------------------
-//                                               Name Gino Torres 
+//                                               Name Gino Torres, Christopher Burket-Thoene, Nathan Tagaloa 
 //                                               Course CMPS 455, Fall 2024
 //                                               Assignment Final Project
 //                                               Due date December/13/2024
